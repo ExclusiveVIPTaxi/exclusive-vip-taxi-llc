@@ -1,0 +1,53 @@
+hr {
+    width: 50%;
+    align: center;
+    margin: auto;
+}
+
+.background {
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.30), rgba(0,0,0, 85)),
+    url("/images/andrew-ruiz-bI2j1olMXUA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 100%;
+    }
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    padding: 5.5rem;
+}
+
+.jumbotron h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5em;
+    text-align: center;
+    color: #FAF9F6;
+    opacity: 70%;
+}
+
+.jumbotron h2{
+    padding-top: 2rem;
+}
+
+.flags img {
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+    z-index: 1;
+}
+
+.flags {
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+.flags img:hover {
+    transition: .3s ease;
+    opacity: 50%;
+}
+
+.hungary {
+    padding-left: 15rem;
+}
