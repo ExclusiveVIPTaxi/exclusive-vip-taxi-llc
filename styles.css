@@ -22,7 +22,7 @@ dd {
 img,
 picture {
   max-width: 100%;
-  display: block;
+  height: auto;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -59,7 +59,7 @@ hr {
 }
 .jumbotron h1, h2 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 4rem;
+    font-size: 3em;
     text-align: center;
     color: #FAF9F6;
     opacity: 85%;
@@ -83,8 +83,8 @@ hr {
 }
 .flags img {
     border-radius: 50%;
-    width: 180px;
-    height: 180px;
+    width: 8em;
+    height: 8em;
     opacity: 85%;
     z-index: 1;
 }
