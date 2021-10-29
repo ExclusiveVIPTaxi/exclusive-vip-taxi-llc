@@ -40,7 +40,7 @@ hr {
 /* Background IMG */
 .background {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 100%),
-    url("images/frankie-lu-nBIrMZbt2xo-unsplash.jpg");
+    url("background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
