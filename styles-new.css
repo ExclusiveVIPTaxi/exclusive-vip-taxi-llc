@@ -3,7 +3,7 @@
     height: auto;
 }
 
-.navbar-brand img {
+#brand {
     max-width: 100px;
     height: auto;  
 }
