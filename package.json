@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sborrell/exclusive-vip-taxi-llc.git"
+    "url": "git+https://github.com/maya-jade/exclusive-vip-taxi-llc.git"
   },
   "keywords": [
     "taxi",
@@ -94,9 +94,9 @@
   "author": "Maya Jade",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sborrell/exclusive-vip-taxi-llc/issues"
+    "url": "https://github.com/maya-jade/exclusive-vip-taxi-llc/issues"
   },
-  "homepage": "https://github.com/sborrell/exclusive-vip-taxi-llc#readme",
+  "homepage": "https://github.com/maya-jade/exclusive-vip-taxi-llc#readme",
   "dependencies": {
     "bootstrap": "^5.1.3",
     "bootstrap-icons": "^1.5.0"
