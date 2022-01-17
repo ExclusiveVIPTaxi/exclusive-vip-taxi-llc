@@ -12106,6 +12106,9 @@ form {
     height: -moz-fit-content;
     height: fit-content;
   }
+  #about {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 651px) {
