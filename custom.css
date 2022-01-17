@@ -11979,6 +11979,7 @@ form {
 @media only screen and (max-width: 650px) {
   #google-maps {
     height: 80%;
+    padding-bottom: 0;
   }
 }
 
