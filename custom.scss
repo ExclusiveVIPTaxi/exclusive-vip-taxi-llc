@@ -37,31 +37,6 @@ form {
   margin: auto;
 }
 
-// Media Queries
-
-@media only screen and (max-width: 650px) {
-#google-maps {
-  height: 80%;
-  padding-bottom: 0;
-}
-.icon-bar {   
-  display: none;
-}
-.icon-bar-mobile {
-  display: block;
-}
-#about-us {
-  width: 90%;
-  padding: 1em;
-  height: fit-content;
-}
-
-@media only screen and (max-width: 651px) {
-.icon-bar-mobile {
-  display: none;
-}
-}
-
 // Mobile icon bar
 .icon-bar-mobile {
   display: flex;
@@ -150,5 +125,31 @@ form {
     background: #007bb5;
     color: white;
   }
+
+
+
+// Media Queries
+
+@media only screen and (max-width: 650px) {
+  #google-maps {
+  height: 80%;
+  padding-bottom: 0;
+}
+.icon-bar {   
+  display: none;
+}
+.icon-bar-mobile {
+  display: flex;
+}
+#about-us {
+  width: 90%;
+  padding: 1em;
+  height: fit-content;
+}
 }
 
+@media only screen and (min-width: 651px) {
+.icon-bar-mobile {
+  display: none;
+}
+}

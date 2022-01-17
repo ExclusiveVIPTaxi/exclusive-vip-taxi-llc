@@ -11994,6 +11994,95 @@ form {
   margin: auto;
 }
 
+.icon-bar-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+}
+
+.icon-bar-mobile a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar-mobile a:hover {
+  opacity: 70%;
+  color: black;
+}
+
+.facebook-mobile {
+  background: #3B5998;
+  color: white;
+  width: 25%;
+}
+
+.instagram-mobile {
+  background: #833AB4;
+  color: white;
+  width: 25%;
+}
+
+.whatsapp-mobile {
+  background: #6dc993;
+  color: white;
+  width: 25%;
+}
+
+.phone-mobile {
+  background: #007bb5;
+  color: white;
+  width: 25%;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  opacity: 70%;
+  color: black;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.instagram {
+  background: #833AB4;
+  color: white;
+}
+
+.whatsapp {
+  background: #6dc993;
+  color: white;
+}
+
+.phone {
+  background: #007bb5;
+  color: white;
+}
+
 @media only screen and (max-width: 650px) {
   #google-maps {
     height: 80%;
@@ -12003,7 +12092,9 @@ form {
     display: none;
   }
   .icon-bar-mobile {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   #about-us {
     width: 90%;
@@ -12014,87 +12105,9 @@ form {
   }
 }
 
-@media only screen and (max-width: 650px) and (max-width: 651px) {
+@media only screen and (min-width: 651px) {
   .icon-bar-mobile {
     display: none;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .icon-bar-mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    z-index: 1;
-  }
-  .icon-bar-mobile a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    color: white;
-    font-size: 20px;
-  }
-  .icon-bar-mobile a:hover {
-    opacity: 70%;
-    color: black;
-  }
-  .facebook-mobile {
-    background: #3B5998;
-    color: white;
-    width: 25%;
-  }
-  .instagram-mobile {
-    background: #833AB4;
-    color: white;
-    width: 25%;
-  }
-  .whatsapp-mobile {
-    background: #6dc993;
-    color: white;
-    width: 25%;
-  }
-  .phone-mobile {
-    background: #007bb5;
-    color: white;
-    width: 25%;
-  }
-  .icon-bar {
-    position: fixed;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  .icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 20px;
-  }
-  .icon-bar a:hover {
-    opacity: 70%;
-    color: black;
-  }
-  .facebook {
-    background: #3B5998;
-    color: white;
-  }
-  .instagram {
-    background: #833AB4;
-    color: white;
-  }
-  .whatsapp {
-    background: #6dc993;
-    color: white;
-  }
-  .phone {
-    background: #007bb5;
-    color: white;
   }
 }
 /*# sourceMappingURL=custom.css.map */
