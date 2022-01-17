@@ -1,3 +1,13 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+h1, h2, a, h5, button > a {
+  color: #CFB53B;
+}
+
+form {
+  color: white;
+}
+
 #logo {
     max-width: 100%;
     height: auto;
@@ -57,3 +67,4 @@
     color: white;
   }
   
+
