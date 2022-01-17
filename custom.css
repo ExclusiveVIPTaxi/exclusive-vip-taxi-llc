@@ -11976,6 +11976,23 @@ form {
   padding-bottom: 3em;
 }
 
+#about-us {
+  width: 50%;
+  height: 95%;
+  border: 1px solid white;
+  margin: auto;
+  padding: 4em;
+}
+
+#about-us h2, #about-us .h2 {
+  margin-bottom: 5em;
+}
+
+#about-us p {
+  max-width: 75ch;
+  margin: auto;
+}
+
 @media only screen and (max-width: 650px) {
   #google-maps {
     height: 80%;
