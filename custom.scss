@@ -21,11 +21,14 @@ form {
 
 #about-us {
   width: 50%;
-  height: 100%;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  height: fit-content;
+  border: 1px solid white;
+  // border-right: 1px solid white;
+  // border-top: 1px solid white;
   margin: auto;
   padding: 4em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 #about-us h2 {
