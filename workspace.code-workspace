@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "exclusive-vip-taxi-llc",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "exclusive-vip-taxi-llc"
+	}
+}
