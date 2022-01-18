@@ -64,7 +64,11 @@ body {
       margin: 0;
       width: 100%;
     }
+    .language-jumbotron h1, h2 {
+    font-size: 3em;
   }
+}
+
   
   .language-jumbotron h1, h2 {
     font-family: 'Bebas Neue', cursive;
