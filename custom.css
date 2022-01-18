@@ -12087,10 +12087,6 @@ form {
 }
 
 /* Hide the google widget */
-.goog-te-banner-frame.skiptranslate {
-  display: none !important;
-}
-
 @media only screen and (max-width: 650px) {
   #google-maps {
     height: 80%;
