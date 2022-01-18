@@ -1,9 +1,5 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
-.goog-te-banner-frame.skiptranslate {
-  display: none !important;
-  } 
-
 h1, h2, a, h5, button > a {
   color: #CFB53B;
 }
@@ -132,6 +128,12 @@ form {
     background: #007bb5;
     color: white;
   }
+
+
+  /* Hide the google widget */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+  } 
 
 
 

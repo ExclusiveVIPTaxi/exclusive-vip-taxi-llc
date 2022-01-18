@@ -11957,10 +11957,6 @@ fieldset:disabled .btn {
   }
 }
 
-.goog-te-banner-frame.skiptranslate {
-  display: none !important;
-}
-
 h1, .h1, h2, .h2, a, h5, .h5, button > a {
   color: #CFB53B;
 }
@@ -12090,6 +12086,11 @@ form {
   color: white;
 }
 
+/* Hide the google widget */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
 @media only screen and (max-width: 650px) {
   #google-maps {
     height: 80%;
@@ -12118,82 +12119,6 @@ form {
 @media only screen and (min-width: 651px) {
   .icon-bar-mobile {
     display: none;
-  }
-}
-
-#language-logo {
-  width: 300px;
-  height: auto;
-  margin: auto;
-}
-
-/* Jumbotron Text */
-.language-jumbotron {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 50%;
-  margin: auto;
-  padding: 5em;
-}
-
-.language-jumbotron h1, .language-jumbotron .h1, h2, .h2 {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 4em;
-  text-align: center;
-  opacity: 85%;
-  font-weight: normal;
-}
-
-.language-jumbotron h1, .language-jumbotron .h1 {
-  padding-top: 5rem;
-  color: white;
-}
-
-.language-jumbotron h2, .language-jumbotron .h2 {
-  padding-top: 1rem;
-  color: white;
-}
-
-/* Flag IMGs */
-.flags {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: auto;
-  width: 100%;
-  padding-top: 2rem;
-  text-align: center;
-}
-
-.flags img {
-  border-radius: 50%;
-  width: 9em;
-  height: 9em;
-  opacity: 85%;
-  z-index: 1;
-}
-
-.flags img:hover {
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-  opacity: 50%;
-}
-
-@media (max-width: 900px) {
-  .america {
-    padding-bottom: 1rem;
   }
 }
 /*# sourceMappingURL=custom.css.map */
