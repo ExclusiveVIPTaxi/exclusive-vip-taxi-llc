@@ -58,18 +58,6 @@ body {
     padding: 5em;
   }
 
-  @media screen and (max-width: 650px) {
-    .language-jumbotron {
-      padding: 0;
-      margin: 0;
-      width: 100%;
-    }
-    .language-jumbotron h1, h2 {
-    font-size: 1em;
-    }
-}
-
-  
   .language-jumbotron h1, h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 4em;
@@ -86,6 +74,16 @@ body {
     color: white;
   }
   
+  @media screen and (max-width: 650px) {
+    .language-jumbotron {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+    .language-jumbotron h1, h2 {
+    font-size: 2em !important;
+    }
+}
   /* Flag IMGs */
   .flags {
     display: flex;
