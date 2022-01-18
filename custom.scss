@@ -19,6 +19,28 @@ form {
   padding-bottom: 3em;
 }
 
+#jobs h2 {  
+  text-align: center;
+  margin-top: 2em;
+}
+#jobs p {
+  max-width: 90ch;
+  margin: auto;
+  color: white;
+}
+#jobs {
+  background-color: black;
+  width: 50%;
+  height: fit-content;
+  border: 1px solid white;
+  // border-right: 1px solid white;
+  // border-top: 1px solid white;
+  margin: auto;
+  padding: 4em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 #about-us {
   width: 50%;
   height: fit-content;
