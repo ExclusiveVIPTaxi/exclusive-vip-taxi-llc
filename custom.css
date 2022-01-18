@@ -12131,8 +12131,12 @@ form {
     height: -moz-fit-content;
     height: fit-content;
   }
-  #about {
-    width: 100%;
+  #jobs {
+    width: 90%;
+    padding: 1em;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 
