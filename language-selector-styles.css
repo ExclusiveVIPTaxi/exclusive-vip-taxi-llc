@@ -36,18 +36,6 @@ hr {
     width: 45%;
 }
 
-/* Background IMG */
-/* .background {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 100%),
-    url("/card-3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-    min-height: 100vh;
-     
-    }  */
-
 body {
     background: black;
 }
