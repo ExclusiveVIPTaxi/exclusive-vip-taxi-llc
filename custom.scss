@@ -163,3 +163,65 @@ form {
   display: none;
 }
 }
+
+
+// Language Page 
+#language-logo {
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+
+/* Jumbotron Text */
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+  padding: 5em;
+}
+.jumbotron h1, h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4em;
+  text-align: center;
+  opacity: 85%;
+  font-weight: normal;
+}
+.jumbotron h1 {
+  padding-top: 5rem;
+  color: white;
+}
+.jumbotron h2{
+  padding-top: 1rem;
+  color: white;
+}
+
+/* Flag IMGs */
+.flags {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  padding-top: 2rem;
+  text-align: center;
+}
+.flags img {
+  border-radius: 50%;
+  width: 9em;
+  height: 9em;
+  opacity: 85%;
+  z-index: 1;
+}
+.flags img:hover {
+  transition: .3s ease;
+  opacity: 50%;
+}
+
+
+@media (max-width: 900px) {
+.america {
+  padding-bottom: 1rem;
+}
+}
