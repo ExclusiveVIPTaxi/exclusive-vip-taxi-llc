@@ -1,4 +1,45 @@
 // Language Page Styles
+/* Set core body defaults */
+html, body {
+  height: 100%;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+margin: 0;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+max-width: 100%;
+height: auto;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+font: inherit;
+}
+
+hr {
+  width: 45%;
+}
+
+body {
+  background: black;
+}
 #language-logo {
     width: 300px;
     height: auto;
