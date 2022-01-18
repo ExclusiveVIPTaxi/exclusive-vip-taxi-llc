@@ -11957,6 +11957,10 @@ fieldset:disabled .btn {
   }
 }
 
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
 h1, .h1, h2, .h2, a, h5, .h5, button > a {
   color: #CFB53B;
 }
