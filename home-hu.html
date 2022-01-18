@@ -347,28 +347,30 @@
     
     <!-- End Footer  -->
   
-  <!-- Additional Resources  -->
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+ <!-- Google Translate  -->
+ <style>#google_translate_element,.skiptranslate{display:none;}body{top:0!important;}</style>
+ <div id="google_translate_element"></div>
+ <script>
+     function googleTranslateElementInit() {
+         new google.translate.TranslateElement({
+             pageLanguage: 'en', 
+             includedLanguages: 'hu', 
+             autoDisplay: false
+         }, 'google_translate_element');
+         var a = document.querySelector("#google_translate_element select");
+         a.selectedIndex=1;
+         a.dispatchEvent(new Event('change'));
+     }
+ </script>
+ <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+ <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-  <!-- End Body and HTML -->
-  <style>#google_translate_element,.skiptranslate{display:none;}body{top:0!important;}</style>
-  <div id="google_translate_element"></div>
-  <script>
-      function googleTranslateElementInit() {
-          new google.translate.TranslateElement({
-              pageLanguage: 'en', 
-              includedLanguages: 'hu', 
-              autoDisplay: false
-          }, 'google_translate_element');
-          var a = document.querySelector("#google_translate_element select");
-          a.selectedIndex=1;
-          a.dispatchEvent(new Event('change'));
-      }
-  </script>
-  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  </body>
-  </html>
+<!-- Additional Resources  -->
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
-  
+<!-- End Body and HTML -->
+</body>
+</html>
+
+    
