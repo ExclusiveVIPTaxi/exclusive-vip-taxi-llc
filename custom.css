@@ -12128,7 +12128,7 @@ form {
 }
 
 /* Jumbotron Text */
-.jumbotron {
+.language-jumbotron {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12143,7 +12143,7 @@ form {
   padding: 5em;
 }
 
-.jumbotron h1, .jumbotron .h1, h2, .h2 {
+.language-jumbotron h1, .language-jumbotron .h1, h2, .h2 {
   font-family: 'Bebas Neue', cursive;
   font-size: 4em;
   text-align: center;
@@ -12151,12 +12151,12 @@ form {
   font-weight: normal;
 }
 
-.jumbotron h1, .jumbotron .h1 {
+.language-jumbotron h1, .language-jumbotron .h1 {
   padding-top: 5rem;
   color: white;
 }
 
-.jumbotron h2, .jumbotron .h2 {
+.language-jumbotron h2, .language-jumbotron .h2 {
   padding-top: 1rem;
   color: white;
 }
