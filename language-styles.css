@@ -65,9 +65,9 @@ body {
       width: 100%;
     }
     .language-jumbotron h1, h2 {
-    font-size: 3em;
+    font-size: 2em;
     }
-   .language-title {
+   #language-title {
     font-size: 2em;
   }
 }
