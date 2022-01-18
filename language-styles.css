@@ -57,6 +57,13 @@ body {
     margin: auto;
     padding: 5em;
   }
+
+  @media screen and (max-width: 650px) {
+    .language-jumbotron {
+      padding: 0;
+    }
+  }
+  
   .language-jumbotron h1, h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 4em;
